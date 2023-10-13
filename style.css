@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#search {
+  display: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.conainer1 {
+  margin-top: 10x;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  top: 0;
+  width: 100%;
+  height: 10%;
+  position: fixed;
+  background-color: white;
+}
+
+h1 {
+  font-size: 30px;
+  color: white;
+}
+
+.category {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: 5px;
+}
+
+.container {
+  max-width: 1203px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.container2 {
+  max-width: 280px;
+  max-height: fit-content;
+  padding-top: 500px;
+  margin: 0 auto;
+  /* backdrop-filter: blur(4px); */
+}
+
+.container2 p {
+  color: white;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.container2 button {
+  font-size: 15px;
+  margin-top: 15px;
+  border-radius: 32px;
+  padding: 8px;
+  background-color: #e8336a;
+  color: white;
+}
+
+.profile .fa {
+  margin-right: 2px;
+}
+
+main {
+  height: 100vh;
+  max-width: 100%;
+  background-image: url(assets/background-images/bg-1.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 75%;
+  top: 0;
+}
+
+.events,
+.h-event {
+  padding: 30px;
+  margin-right: 10px;
+}
+@media only screen and (min-width: 780px) {
+  .category {
+    align-items: center;
+  }
+
+  main {
+    background-size: 100% auto;
+    background-attachment: scroll;
+  }
+
+  h1 {
+    font-size: 48px;
+    color: black;
+  }
+
+  .container2 {
+    max-width: 450px;
+    padding-top: 250px;
+    margin-left: 90px;
+  }
+
+  .container2 button {
+    font-size: 15px;
+    margin-top: 15px;
+    border-radius: 32px;
+    padding: 8px;
+    background-color: #e8336a;
+    color: white;
+  }
+
+  .container2 p {
+    font-size: 17px;
+    color: rgb(39, 39, 39);
+  }
+
+  .row1,
+  .row2,
+  .happening-soon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .cities {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
+
+  .london {
+    margin-left: 10px;
+  }
+
+  #search {
+    display: block;
+    width: 55vw;
+    height: 2vw;
+    border-radius: 32px;
+    margin: 5px 5px 0px 5px;
+    padding: 3px;
+    font-size: 1vw;
+  }
+}
