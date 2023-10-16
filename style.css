@@ -23,6 +23,24 @@ nav {
   background-color: white;
 }
 
+.profile {
+  border: 1px solid black;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding: 10px;
+  padding-left: 10px;
+  border-radius: 32px;
+}
+
+.fa {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#host {
+  display: none;
+}
+
 .country {
   display: flex;
   justify-content: space-between;
@@ -75,10 +93,11 @@ h1 {
 }
 .container2 {
   display: inline-block;
-  max-width: 280px;
+  max-width: 90%;
   height: 200px;
   padding: 20px;
-  margin-left: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
   margin-top: 500px;
   backdrop-filter: blur(25px);
   border-radius: 20px;
@@ -98,10 +117,6 @@ h1 {
   background-color: #e8336a;
   color: white;
   border: 1px solid #e8336a;
-}
-
-.profile .fa {
-  margin-right: 2px;
 }
 
 main {
@@ -156,6 +171,8 @@ main {
 }
 
 .discover {
+  padding-top: 15px;
+  padding-bottom: 15px;
   margin-top: 30px;
   margin-left: 30px;
   color: white;
@@ -221,6 +238,16 @@ li {
   margin-bottom: 5px;
 }
 
+.event-images {
+  position: relative;
+}
+
+.location {
+  position: absolute;
+  bottom: 2px;
+  left: 2px;
+}
+
 @media only screen and (min-width: 960px) {
   .category {
     align-items: center;
@@ -238,7 +265,6 @@ li {
 
   .container2 {
     display: inline-block;
-
     height: 200px;
     padding: 20px;
     margin-top: 250px;
@@ -259,6 +285,10 @@ li {
   .container2 p {
     font-size: 17px;
     color: rgb(39, 39, 39);
+  }
+
+  #host {
+    display: block;
   }
 
   .row1,
