@@ -91,6 +91,7 @@ h1 {
 .topmost p {
   font-size: 25px;
 }
+
 .container2 {
   display: inline-block;
   max-width: 90%;
@@ -195,7 +196,7 @@ main {
   display: flex;
   flex-direction: column;
   max-width: 100%;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .footer-logo {
@@ -240,12 +241,18 @@ li {
 
 .event-images {
   position: relative;
+  z-index: -1;
 }
 
 .location {
   position: absolute;
   bottom: 2px;
   left: 2px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: black;
 }
 
 @media only screen and (min-width: 960px) {
@@ -372,11 +379,13 @@ li {
     font-size: 18px;
     margin-bottom: 15px;
   }
+
   .discover {
     margin-top: 8%;
     margin-left: 10%;
     text-align: left;
   }
+
   .dis-button {
     margin-top: 15px;
   }
@@ -393,7 +402,7 @@ li {
     margin-top: 30px;
     padding: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     max-width: 100%;
   }
 
@@ -417,5 +426,21 @@ li {
 
   .head {
     margin-bottom: 10px;
+  }
+
+  .terms {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .left ul,
+  .right ul {
+    display: flex;
+  }
+
+  .left li,
+  .right li {
+    display: flex;
+    margin-right: 10px;
   }
 }
