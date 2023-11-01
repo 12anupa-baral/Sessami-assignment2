@@ -430,12 +430,12 @@ li {
 
   .hosts img {
     max-width: 100%;
-    left: 40%;
-    transition: var(--transition);
+    margin-left: 30%;
+
     border-radius: 8px;
     margin-bottom: 1rem;
     z-index: 1;
-    min-width: 70vw;
+
   }
 
   .text {
@@ -462,7 +462,6 @@ li {
   }
 
   .discover {
-    margin-top: 8%;
     margin-left: 10%;
     text-align: left;
   }
