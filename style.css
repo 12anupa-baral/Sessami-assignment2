@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+body {
+  font-family: 'Open Sans', sans-serif;
+  ;
+}
+
 #search {
   display: none;
 }
@@ -62,7 +67,7 @@ nav {
 h1 {
   font-size: 30px;
   color: white;
-  font-family: 'Open Sans', sans-serif;
+
 }
 
 .category {
@@ -101,7 +106,7 @@ h1 {
   margin-top: 10px;
   margin-left: 20px;
   margin-bottom: 20px;
-  font-family: 'Open Sans', sans-serif;
+
 }
 
 .topmost a:hover {
@@ -110,17 +115,18 @@ h1 {
 
 
 .topmost h2 {
-  font-size: 30px;
+  font-size: 6vw;
 }
 
 .topmost h2 a {
-  font-size: 20px;
+  font-size: 3vw;
   color: #e8336a;
   text-decoration: underline;
 }
 
 .topmost p {
-  font-size: 25px;
+  font-size: 4vw;
+  color: grey;
 }
 
 .container2 {
@@ -130,7 +136,7 @@ h1 {
   padding: 20px;
   margin-left: 5%;
   margin-right: 5%;
-  margin-top: 500px;
+  margin-top: 480px;
   margin-bottom: 5%;
   backdrop-filter: blur(25px);
   border-radius: 20px;
@@ -143,7 +149,9 @@ h1 {
   color: white;
   font-size: 15px;
   margin-top: 10px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+
 }
 
 .container2 button {
@@ -182,8 +190,8 @@ main {
 
 
 .happening {
-  padding: 30px;
-  margin-left: 10px;
+
+  margin: 20px;
 }
 
 .h-event {
@@ -192,9 +200,10 @@ main {
 }
 
 .hosts {
-  margin-top: 10px;
-  margin-left: 40px;
+  margin: 20px;
+
 }
+
 
 .hosts img {
   max-width: 90%;
@@ -239,6 +248,11 @@ main {
   color: white;
 }
 
+.text p {
+  margin-top: 20px;
+
+}
+
 .footer {
   background-color: #f5f5f5;
   margin-top: 100px;
@@ -278,6 +292,12 @@ li {
 
 .event {
   margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.info {
+  margin-left: 10px;
 }
 
 .terms {
@@ -286,7 +306,10 @@ li {
 }
 
 .event h3 {
+  font-weight: 200px;
   margin-bottom: 10px;
+  margin: 10px;
+
 }
 
 .event p {
